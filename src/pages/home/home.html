@@ -1,0 +1,77 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-row >
+        <ion-col col-6 >
+          <ion-card (click)="overview()" style="background:white;height: 100%;width: 100%;margin:0px !important;">
+            <img src="assets/icon/book.svg" style="margin:5px auto;width:50%;">
+            <ion-card-content style="padding-top:0px;padding-bottom:0px;">
+              <ion-card-title style="text-align:center; color:black; font-size:18px;">
+                OverView
+              </ion-card-title>
+              <!-- <p style="text-align:center;color:black;position: unset;font-size:12px;">
+                Temporary giving of money to another person
+              </p> -->
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <ion-col col-6  >
+          <ion-card (click)="overview()" style="background:white;height: 100%;width: 100%;margin:0px !important;">
+            <img src="assets/icon/book.svg" style="margin:5px auto;width:50%;">
+            <ion-card-content style="padding-top:0px;padding-bottom:0px;">
+              <ion-card-title style="text-align:  center; color:  black;font-size:18px;">
+             Question & Answer
+              </ion-card-title>
+              <!-- <p style="text-align:center;color:black;position: unset;font-size:12px;">
+                Refers to a mutual agreement or a policy
+              </p> -->
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+  
+  
+      <ion-row >
+        <ion-col col-6 >
+          <ion-card (click)="aboutus()" style="background:white;height: 100%;width: 100%;margin:0px !important;">
+            <img src="assets/icon/book.svg" style="margin:5px auto;width:50%;">
+            <ion-card-content style="padding-top:0px;padding-bottom:0px;">
+              <ion-card-title style="text-align:center; color:black; font-size:18px;">
+                About Us
+              </ion-card-title>
+              <!-- <p style="text-align:center;color:black;position: unset;font-size:12px;">
+                Conducts securities analysis in return for a fee
+              </p> -->
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+        <!-- <ion-col col-6>
+          <ion-card (click)="overview()" style="background:white;height: 100%;width: 100%;margin:0px !important;">
+            <img src="assets/icon/book.svg" style="margin:5px auto;width:50%;">
+            <ion-card-content style="padding-top:0px;padding-bottom:0px;">
+              <ion-card-title style="text-align:  center; color:  black;font-size:18px;">
+             Others
+              </ion-card-title>
+            
+            </ion-card-content>
+          </ion-card>
+        </ion-col> -->
+      </ion-row>
+      <!-- <button ion-button round full (click)="opneCameraPage()">Open Camera</button> -->
+</ion-content>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px" class=""><g><circle style="fill:#44C4FC;" cx="256" cy="256" r="256" data-original="#44C4FC"/><path style="fill:#29ACE5;" d="M512,256c0-11.397-0.755-22.617-2.199-33.621l-64.712-64.712L113.69,299.357l-46.779,80.31  L190.875,503.63C211.67,509.084,233.494,512,256,512C397.385,512,512,397.385,512,256z" data-original="#29ACE5"/><polygon style="fill:#1E499E;" points="445.089,329.667 130.245,329.667 66.911,379.667 66.911,157.667 445.089,157.667 " data-original="#1E499E"/><rect x="256" y="157.67" style="fill:#0E387C;" width="189.14" height="172" data-original="#0E387C"/><g>
+	<polygon style="fill:#FEE900;" points="136.332,183.885 151.964,215.558 186.918,220.638 161.625,245.292 167.596,280.105    136.332,263.668 105.068,280.105 111.039,245.292 85.746,220.638 120.7,215.558  " data-original="#FEE900"/>
+	<polygon style="fill:#FEE900;" points="256,183.885 271.632,215.558 306.586,220.638 281.293,245.292 287.264,280.105 256,263.668    224.736,280.105 230.707,245.292 205.414,220.638 240.368,215.558  " data-original="#FEE900"/>
+</g><g>
+	<polygon style="fill:#FED500" points="256,263.668 287.264,280.105 281.293,245.292 306.586,220.638 271.632,215.559 256,183.885     " data-original="#FED500" class="active-path"/>
+	<polygon style="fill:#FED500" points="375.668,183.885 391.3,215.558 426.254,220.638 400.961,245.292 406.932,280.105    375.668,263.668 344.404,280.105 350.375,245.292 325.082,220.638 360.036,215.558  " data-original="#FED500" class="active-path"/>
+</g></g> </svg>
