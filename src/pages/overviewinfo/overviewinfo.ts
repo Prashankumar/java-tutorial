@@ -6,6 +6,7 @@ import {  NavController, NavParams } from 'ionic-angular';
   templateUrl: 'overviewinfo.html',
 })
 export class OverviewinfoPage {
+  text:any="";
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

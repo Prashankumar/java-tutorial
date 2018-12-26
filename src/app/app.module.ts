@@ -26,6 +26,8 @@ import { OptionalviewPage } from '../pages/optionalview/optionalview';
 import { NashronviewPage } from '../pages/nashronview/nashronview';
 import { NewdateviewPage } from '../pages/newdateview/newdateview';
 import { OverviewPage } from '../pages/overview/overview';
+import { IonicImageViewerModule } from 'ionic-img-viewer';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -52,7 +54,8 @@ import { OverviewPage } from '../pages/overview/overview';
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
-    AngularCropperjsModule
+    AngularCropperjsModule,
+    IonicImageViewerModule
 
   ],
   bootstrap: [IonicApp],

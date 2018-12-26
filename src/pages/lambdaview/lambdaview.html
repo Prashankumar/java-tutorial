@@ -7,12 +7,84 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>lambdaview</ion-title>
+    <ion-title> Lambda Expressions</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+<p>Lambda expressions are introduced in Java 8 and are touted to be the biggest feature of Java 8. Lambda expression facilitates functional programming, and simplifies the development a lot.</p>
+<h3>Syntax</h3>
+<p>A lambda expression is characterized by the following syntax.</p>
+<p>parameter -> expression body</p>
+<p>Following are the important characteristics of a lambda expression.</p>
+<ul>
+  <li><strong>Optional type declaration</strong> − No need to declare the type of a parameter. The compiler can inference the same from the value of the parameter.</li>
+  <li><strong>Optional parenthesis around parameter</strong> − No need to declare a single parameter in parenthesis. For multiple parameters, parentheses are required.</li>
+  <li><strong>Optional curly braces</strong> − No need to use curly braces in expression body if the body contains a single statement.</li>
+  <li><strong>Optional return keyword </strong>− The compiler automatically returns the value if the body has a single expression to return the value. Curly braces are required to indicate that expression returns a value.</li>
+</ul>
+<h3>Lambda Expressions Example</h3>
+<p>Create the following Java program using any editor of your choice in, say, C:\> JAVA.</p>
+<div class="center">
+<img src="assets/imgs/lambda1.PNG" imageViewer>
+</div>
+<h3>Verify the Result
+  </h3>
+  <p>Compile the class using javac compiler as follows −
+
+    </p>
+    <div style="background-color: #eee">
+    <span >C:\JAVA>javac Java8Tester.java</span></div>
+    <p>Now run the Java8Tester as follows −</p>
+    <div style="background-color: #eee"> <span >C:\JAVA>java Java8Tester</span></div>
+   
+    <p>
+        It should produce the following output −
+    </p>
+    <div  style="background-color: #eee">
+    <span>10 + 5 = 15</span><br>
+        <span>10 - 5 = 5</span><br>
+        <span>10 x 5 = 50</span><br>
+        <span>10 / 5 = 2</span><br>
+        <span>Hello Mahesh</span><br>
+        <span>Hello Suresh</span>
+      </div>
+        <p>Following are the important points to be considered in the above example.
+
+          </p>
+          <ul>
+            <li>Lambda expressions are used primarily to define inline implementation of a functional interface, i.e., an interface with a single method only. In the above example, we've used various types of lambda expressions to define the operation method of MathOperation interface. Then we have defined the implementation of sayMessage of GreetingService.</li>
+
+            <li>Lambda expression eliminates the need of anonymous class and gives a very simple yet powerful functional programming capability to Java.</li>
+          </ul>
+          <h3>Scope</h3>
+          <p>Using lambda expression, you can refer to any final variable or effectively final variable (which is assigned only once). Lambda expression throws a compilation error, if a variable is assigned a value the second time.</p>
+          <h4>Scope Example</h4>
+          <p>Create the following Java program using any editor of your choice in, say, C:\> JAVA.</p>
+          <Strong>Java8Tester.java
+
+            </Strong>
+            <div class="center">
+                <img src="assets/imgs/lambda2.PNG" imageViewer>
+                </div>
+                <h3>Verify the Result</h3>
+                <p>Compile the class using javac compiler as follows −
+
+                  </p>
+                  <div  style="background-color: #eee">
+                      <span >C:\JAVA>javac Java8Tester.java</span>
+
+</div>
+                  <p>Now run the Java8Tester as follows −</p>
+                  <div  style="background-color: #eee">
+                  <span >C:\JAVA>java Java8Tester</span></div>
+<p>It should produce the following output −</p>
+<div  style="background-color: #eee">
+<span>Hello! Mahesh
+  </span>
+
+</div>
 
 </ion-content>

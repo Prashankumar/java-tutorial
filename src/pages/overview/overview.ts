@@ -1,3 +1,5 @@
+import { MethodviewPage } from './../methodview/methodview';
+import { LambdaviewPage } from './../lambdaview/lambdaview';
 import { InfoPage } from './../info/info';
 import { HomeinfoPage } from './../homeinfo/homeinfo';
 import { Component } from '@angular/core';
@@ -43,7 +45,12 @@ export class OverviewPage {
     else if(id==3){
       this.navCtrl.push(EnvironmentviewPage)
     }
-   
+   else if(id==4){
+     this.navCtrl.push(LambdaviewPage);
+   }
+   else if(id==5){
+     this.navCtrl.push(MethodviewPage);
+   }
   }
   
 }

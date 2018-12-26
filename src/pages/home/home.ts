@@ -24,9 +24,7 @@ export class HomePage {
   aboutus(){
     this.navCtrl.push(AboutPage);
   }
-  // opneCameraPage(){
-  //   this.navCtrl.push(CameraPage);
-  // }
+  
   questionAnswer(){
     this.navCtrl.push(QuestionAnswerPage)
   }
