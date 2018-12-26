@@ -1,17 +1,18 @@
 import { Component } from '@angular/core';
 import {  NavController, NavParams } from 'ionic-angular';
 
+
 @Component({
-  selector: 'page-overviewinfo',
-  templateUrl: 'overviewinfo.html',
+  selector: 'page-nashronview',
+  templateUrl: 'nashronview.html',
 })
-export class OverviewinfoPage {
+export class NashronviewPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad OverviewinfoPage');
+    console.log('ionViewDidLoad NashronviewPage');
   }
 
 }

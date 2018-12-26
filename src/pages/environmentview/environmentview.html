@@ -1,0 +1,75 @@
+<!--
+  Generated template for the EnvironmentviewPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Environment Setup</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<div>
+  <h3>Local Environment Setup</h3>
+</div>
+<div>
+  <p>
+    If you want to set up your own environment for Java programming language, then this section guides you through the whole process. Please follow the steps given below to set up your Java environment.</p>
+<p>Java SE can be downloaded for free from the following link −</p>
+<p>https://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html</p>
+<p>You download a version based on your operating system.
+</p>
+<p>Follow the instructions to download Java, and run the .exe to install Java on your machine. Once you have installed Java on your machine, you would need to set environment variables to point to correct installation directories.</p>
+
+</div>
+<div>
+  <h5>Setting Up the Path for Windows 2000/XP</h5>
+  <p>
+    Assuming you have installed Java in c:\Program Files\java\jdk directory −
+  </p>
+  <ol>
+    <li>Right-click on 'My Computer' and select 'Properties'.
+
+    </li>
+    <li>Click on the 'Environment variables' button under the 'Advanced' tab.
+
+    </li>
+    <li>Now, alter the 'Path' variable so that it also contains the path to the Java executable. For example, if the path is currently set to 'C:\WINDOWS\SYSTEM32', then change your path to read 'C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin'.</li>
+
+  </ol>
+</div>
+<div>
+  <h5>Setting Up the Path for Windows 95/98/ME
+  </h5>
+  <p>Assuming you have installed Java in c:\Program Files\java\jdk directory −
+
+  </p>
+  <ol>
+    <li>Edit the 'C:\autoexec.bat' file and add the following line at the end −
+
+      SET PATH=%PATH%;C:\Program Files\java\jdk\bin</li>
+  </ol>
+</div>
+<div>
+  <h5>Setting Up the Path for Linux, UNIX, Solaris, FreeBSD
+  </h5>
+  <p>Environment variable PATH should be set to point to where the Java binaries have been installed. Refer to your shell documentation if you have trouble doing this.
+</p>
+<p>
+  For example, if you use bash as your shell, then you would add the following line at the end of your '.bashrc: export PATH=/path/to/java:$PATH'</p>
+</div>
+<div>
+  <h3>Popular Java Editors</h3>
+  <p>To write Java programs, you need a text editor. There are even more sophisticated IDEs available in the market. But for now, you can consider one of the following −</p>
+  <ol>
+    <li><strong>Notepad</strong> − On Windows machine, you can use any simple text editor like Notepad (recommended for this tutorial) or TextPad.</li>
+    <li><strong>Netbeans</strong> − It is a Java IDE that is open-source and free. It can be downloaded from https://netbeans.org/index.html.</li>
+    <li><strong>Eclipse </strong>− It is also a Java IDE developed by the Eclipse open-source community and can be downloaded from https://www.eclipse.org/</li>
+  </ol>
+</div>
+</ion-content>

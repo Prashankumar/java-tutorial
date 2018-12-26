@@ -1,17 +1,12 @@
 import { InfoPage } from './../info/info';
 import { HomeinfoPage } from './../homeinfo/homeinfo';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams } from 'ionic-angular';
 import { OverviewinfoPage } from '../overviewinfo/overviewinfo';
+import { EnvironmentviewPage } from '../environmentview/environmentview';
 
-/**
- * Generated class for the OverviewPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
-@IonicPage()
+
 @Component({
   selector: 'page-overview',
   templateUrl: 'overview.html',
@@ -44,6 +39,9 @@ export class OverviewPage {
     }
     else if(id==2){
       this.navCtrl.push(OverviewinfoPage);
+    }
+    else if(id==3){
+      this.navCtrl.push(EnvironmentviewPage)
     }
    
   }

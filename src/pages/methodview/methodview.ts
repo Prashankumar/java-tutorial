@@ -1,17 +1,18 @@
 import { Component } from '@angular/core';
 import {  NavController, NavParams } from 'ionic-angular';
 
+
 @Component({
-  selector: 'page-overviewinfo',
-  templateUrl: 'overviewinfo.html',
+  selector: 'page-methodview',
+  templateUrl: 'methodview.html',
 })
-export class OverviewinfoPage {
+export class MethodviewPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad OverviewinfoPage');
+    console.log('ionViewDidLoad MethodviewPage');
   }
 
 }

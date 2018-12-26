@@ -1,10 +1,11 @@
+import { OverviewPage } from './../overview/overview';
 import { AboutPage } from './../about/about';
 import { CameraPage } from './../camera/camera';
+import { QuestionAnswerPage } from './../question-answer/question-answer';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams } from 'ionic-angular';
 
 
-@IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html',
@@ -18,7 +19,7 @@ export class HomePage {
     console.log('ionViewDidLoad HomePage');
   }
   overview(){
-    this.navCtrl.push('OverviewPage');
+    this.navCtrl.push(OverviewPage);
   }
   aboutus(){
     this.navCtrl.push(AboutPage);
@@ -26,4 +27,7 @@ export class HomePage {
   // opneCameraPage(){
   //   this.navCtrl.push(CameraPage);
   // }
+  questionAnswer(){
+    this.navCtrl.push(QuestionAnswerPage)
+  }
 }

@@ -2,16 +2,16 @@ import { Component } from '@angular/core';
 import {  NavController, NavParams } from 'ionic-angular';
 
 @Component({
-  selector: 'page-overviewinfo',
-  templateUrl: 'overviewinfo.html',
+  selector: 'page-newdateview',
+  templateUrl: 'newdateview.html',
 })
-export class OverviewinfoPage {
+export class NewdateviewPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad OverviewinfoPage');
+    console.log('ionViewDidLoad NewdateviewPage');
   }
 
 }

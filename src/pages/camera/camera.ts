@@ -1,9 +1,9 @@
 import { Component,ViewChild} from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {  NavController, NavParams } from 'ionic-angular';
 import { AngularCropperjsComponent } from 'angular-cropperjs';
 import { CameraOptions, Camera } from '@ionic-native/camera';
 
-@IonicPage()
+
 @Component({
   selector: 'page-camera',
   templateUrl: 'camera.html',
