@@ -90,4 +90,8 @@
         <string>need photo library access to get pictures from there</string>
     </edit-config>
     <engine name="android" spec="7.1.4" />
+    <plugin name="mx.ferreyra.callnumber" spec="~0.0.2" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="5.4.3">
+        <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.1+" />
+    </plugin>
 </widget>

@@ -27,6 +27,8 @@ import { NashronviewPage } from '../pages/nashronview/nashronview';
 import { NewdateviewPage } from '../pages/newdateview/newdateview';
 import { OverviewPage } from '../pages/overview/overview';
 import { IonicImageViewerModule } from 'ionic-img-viewer';
+import { CallNumber } from '@ionic-native/call-number';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 @NgModule({
   declarations: [
@@ -84,7 +86,9 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    Camera
+    Camera,
+    CallNumber ,
+    SocialSharing
   ]
 })
 export class AppModule {}
