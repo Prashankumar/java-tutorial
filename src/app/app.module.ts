@@ -26,9 +26,35 @@ import { OptionalviewPage } from '../pages/optionalview/optionalview';
 import { NashronviewPage } from '../pages/nashronview/nashronview';
 import { NewdateviewPage } from '../pages/newdateview/newdateview';
 import { OverviewPage } from '../pages/overview/overview';
+import { CommentsPage } from '../pages/comments/comments';
+
+import { VariablesPage } from '../pages/variables/variables';
+import { DatatypesPage } from '../pages/datatypes/datatypes';
+import { OperatorsPage } from '../pages/operators/operators';
+import { ControlPage } from '../pages/control/control';
+import { DecisionmakingPage } from '../pages/decisionmaking/decisionmaking';
+import { NumbersclassPage } from '../pages/numbersclass/numbersclass';
+import { CharacterPage } from '../pages/character/character';
+import { StringsPage } from '../pages/strings/strings';
+import { ArraysPage } from '../pages/arrays/arrays';
+import { ExpressionsPage } from '../pages/expressions/expressions';
+import { MethodsPage } from '../pages/methods/methods';
+import { FilesPage } from '../pages/files/files';
+import { ExceptionsPage } from '../pages/exceptions/exceptions';
+import { InnerPage } from '../pages/inner/inner';
+import { InheritancePage } from '../pages/inheritance/inheritance';
+import { OverridingPage } from '../pages/overriding/overriding';
+import { PolymorphismPage } from '../pages/polymorphism/polymorphism';
+import { AbstractionPage } from '../pages/abstraction/abstraction';
+import { EncapsulationPage } from '../pages/encapsulation/encapsulation';
+import { InterfacesPage } from '../pages/interfaces/interfaces';
+import { PackagesPage } from '../pages/packages/packages';
+
+
+
+
+
 import { IonicImageViewerModule } from 'ionic-img-viewer';
-import { CallNumber } from '@ionic-native/call-number';
-import { SocialSharing } from '@ionic-native/social-sharing';
 
 @NgModule({
   declarations: [
@@ -50,7 +76,29 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     Base64viewPage,
     QuestionAnswerPage,
     OverviewPage,
-    HomePage
+    HomePage,
+    CommentsPage,
+    VariablesPage,
+    DatatypesPage,
+    OperatorsPage,
+    ControlPage,
+    DecisionmakingPage,
+    NumbersclassPage,
+    CharacterPage,
+    StringsPage,
+    ArraysPage,
+    ExpressionsPage,
+    MethodsPage,
+    FilesPage,
+    ExceptionsPage,
+    InnerPage,
+    InheritancePage,
+    OverridingPage,
+    PolymorphismPage,
+    AbstractionPage,
+    EncapsulationPage,
+    InterfacesPage,
+    PackagesPage
    
   ],
   imports: [
@@ -80,15 +128,36 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     Base64viewPage,
     QuestionAnswerPage,
     OverviewPage,
-    HomePage
+    HomePage,
+    CommentsPage,
+    VariablesPage,
+    DatatypesPage,
+    OperatorsPage,
+    ControlPage,
+    DecisionmakingPage,
+    NumbersclassPage,
+    CharacterPage,
+    StringsPage,
+    ArraysPage,
+    ExpressionsPage,
+    MethodsPage,
+    FilesPage,
+    ExceptionsPage,
+    InnerPage,
+    InheritancePage,
+    OverridingPage,
+    PolymorphismPage,
+    AbstractionPage,
+    EncapsulationPage,
+    InterfacesPage,
+    PackagesPage
+
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    Camera,
-    CallNumber ,
-    SocialSharing
+    Camera
   ]
 })
 export class AppModule {}

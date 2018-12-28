@@ -1,0 +1,85 @@
+<!--
+  Generated template for the StringsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Strings Class</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <div>
+        <p>
+            Strings, which are widely used in Java programming, are a sequence of characters. In Java programming language, strings are treated as objects.
+            <br><br>
+          The Java platform provides the String class to create and manipulate strings.
+          <br><br>
+          <strong>Creating Strings</strong>
+          <br><br>
+          The most direct way to create a string is to write −
+          <br><br>
+          String greeting = "Hello world!";
+          <br><br>
+          Whenever it encounters a string literal in your code, the compiler creates a String object with its value in this case, "Hello world!'.
+          <br><br>
+          As with any other object, you can create String objects by using the new keyword and a constructor. The String class has 11 constructors that allow you to provide the initial value of the string using different sources, such as an array of characters.
+
+          <br><br>
+          Note − The String class is immutable, so that once it is created a String object cannot be changed. If there is a necessity to make a lot of modifications to Strings of characters, then you should use String Buffer & String Builder Classes.
+          <br><br>
+          <strong>String Length</strong>
+          <br><br>
+          Methods used to obtain information about an object are known as accessor methods. One accessor method that you can use with strings is the length() method, which returns the number of characters contained in the string object.
+          <br><br>
+
+          <strong>Concatenating Strings</strong>
+          <br><br>
+          The String class includes a method for concatenating two strings −
+          <br><br>
+          string1.concat(string2);
+          <br><br>
+          This returns a new string that is string1 with string2 added to it at the end. You can also use the concat() method with string literals, as in −
+          <br><br>
+          "My name is ".concat("Zara");
+          <br><br>
+          Strings are more commonly concatenated with the + operator, as in −
+          <br><br>
+          "Hello," + " world" + "!"
+          <br><br>
+          which results in −
+          <br><br>
+
+          "Hello, world!"
+          <br><br>
+
+         <strong> Creating Format Strings</strong>
+          <br><br>
+          You have printf() and format() methods to print output with formatted numbers. The String class has an equivalent class method, format(), that returns a String object rather than a PrintStream object.
+          <br><br>
+          Using String's static format() method allows you to create a formatted string that you can reuse, as opposed to a one-time print statement. For example, instead of −
+          <br><br>
+         <strong> Example</strong>
+          <br><br>
+          System.out.printf("The value of the float variable is " +
+                            "%f, while the value of the integer " +
+                            "variable is %d, and the string " +
+                            "is %s", floatVar, intVar, stringVar);
+                            <br><br>
+          You can write −
+          <br><br>
+          String fs;
+          fs = String.format("The value of the float variable is " +
+                            "%f, while the value of the integer " +
+                            "variable is %d, and the string " +
+                            "is %s", floatVar, intVar, stringVar);
+                            <br><br>
+          System.out.println(fs);
+      </p>
+    </div>
+</ion-content>

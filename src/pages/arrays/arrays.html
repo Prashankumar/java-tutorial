@@ -1,0 +1,67 @@
+<!--
+  Generated template for the ArraysPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Arrays</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <div>
+        <p>
+            Java provides a data structure, the array, which stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+            <br><br>
+          Instead of declaring individual variables, such as number0, number1, ..., and number99, you declare one array variable such as numbers and use numbers[0], numbers[1], and ..., numbers[99] to represent individual variables.
+          <br><br>
+          This tutorial introduces how to declare array variables, create arrays, and process arrays using indexed variables.
+          <br><br>
+         <strong> Declaring Array Variables</strong>
+          <br><br>
+          To use an array in a program, you must declare a variable to reference the array, and you must specify the type of array the variable can reference. Here is the syntax for declaring an array variable −
+          <br><br>
+          Syntax
+          <br><br>
+          dataType[] arrayRefVar;   // preferred way.
+          <br><br>
+          or
+          <br><br>
+          dataType arrayRefVar[];  // works but not preferred way.
+          <br><br>
+          Note − The style dataType[] arrayRefVar is preferred. The style dataType arrayRefVar[] comes from the C/C++ language and was adopted in Java to accommodate C/C++ programmers.
+          <br><br>
+          <strong>Example</strong>
+          <br><br>
+          The following code snippets are examples of this syntax −
+          <br><br>
+          double[] myList;   // preferred way. <br><br>
+          or <br><br>
+          double myList[];   // works but not preferred way. <br><br>
+          Creating Arrays <br><br>
+          You can create an array by using the new operator with the following syntax − <br><br>
+
+          <strong>Syntax</strong> <br><br>
+          arrayRefVar = new dataType[arraySize]; <br><br>
+          The above statement does two things − <br><br>
+
+          It creates an array using new dataType[arraySize]. <br><br>
+
+          It assigns the reference of the newly created array to the variable arrayRefVar. <br><br>
+
+          Declaring an array variable, creating an array, and assigning the reference of the array to the variable can be combined in one statement, as shown below −
+          <br><br>
+          dataType[] arrayRefVar = new dataType[arraySize]; <br><br>
+        
+          <strong>Example</strong> <br><br>
+          Following statement declares an array variable, myList, creates an array of 10 elements of double type and assigns its reference to myList −
+          <br><br>
+          double[] myList = new double[10]; 
+      </p>
+    </div>
+</ion-content>
