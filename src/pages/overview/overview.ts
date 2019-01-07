@@ -1,6 +1,5 @@
 import { MethodviewPage } from './../methodview/methodview';
 import { LambdaviewPage } from './../lambdaview/lambdaview';
-import { InfoPage } from './../info/info';
 import { HomeinfoPage } from './../homeinfo/homeinfo';
 import { Component } from '@angular/core';
 import {  NavController, NavParams } from 'ionic-angular';

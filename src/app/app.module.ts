@@ -8,7 +8,6 @@ import { MethodviewPage } from './../pages/methodview/methodview';
 import { LambdaviewPage } from './../pages/lambdaview/lambdaview';
 import { AboutPage } from './../pages/about/about';
 import { HomeinfoPage } from './../pages/homeinfo/homeinfo';
-import { CameraPage } from './../pages/camera/camera';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -16,6 +15,9 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AdMobFree } from '@ionic-native/admob-free';
+import { SocialSharing } from '@ionic-native/social-sharing';
+
 
 import { AngularCropperjsModule } from 'angular-cropperjs';
 import { Camera } from '@ionic-native/camera';
@@ -49,6 +51,7 @@ import { AbstractionPage } from '../pages/abstraction/abstraction';
 import { EncapsulationPage } from '../pages/encapsulation/encapsulation';
 import { InterfacesPage } from '../pages/interfaces/interfaces';
 import { PackagesPage } from '../pages/packages/packages';
+import { SyntaxPage } from '../pages/syntax/syntax';
 
 
 
@@ -59,7 +62,6 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
 @NgModule({
   declarations: [
     MyApp,
-    CameraPage,
     InfoPage,
     AboutPage,
     HomeinfoPage,
@@ -98,7 +100,8 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     AbstractionPage,
     EncapsulationPage,
     InterfacesPage,
-    PackagesPage
+    PackagesPage,
+    SyntaxPage
    
   ],
   imports: [
@@ -111,7 +114,6 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    CameraPage,
     InfoPage,
     AboutPage,
     HomeinfoPage,
@@ -150,12 +152,15 @@ import { IonicImageViewerModule } from 'ionic-img-viewer';
     AbstractionPage,
     EncapsulationPage,
     InterfacesPage,
-    PackagesPage
+    PackagesPage,
+    SyntaxPage
 
   ],
   providers: [
+    SocialSharing,
     StatusBar,
     SplashScreen,
+    AdMobFree,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     Camera
   ]

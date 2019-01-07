@@ -5,6 +5,8 @@ import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { SocialSharing } from '@ionic-native/social-sharing';
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -15,7 +17,7 @@ export class MyApp {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen,private socialSharing: SocialSharing) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
@@ -39,8 +41,17 @@ export class MyApp {
     this.nav.push(HomePage);
   }
 
-  share() {
-  }
+  shareInfo()
+  {
+    this.socialSharing.share("Download Java Overview app from play store", "Java Overview", "", "market://details?id=com.java.offline.amit").
+    then(() => {
+    //alert("Sharing success");
+    // Success!
+    }).catch(() => {
+    // Error!
+    //alert("Share failed");
+    });
+}
 
   rateApp() {
   }
